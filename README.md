@@ -2,9 +2,7 @@
 
 Application Arbitrage is a template created specifically to help with quickly demonstrating the capabilities of blockchain and its ability to interface with mulitple applications and users, while keeping a central authority to various data that could be saved in the blockchain.
 
-### Overview
 
-Since the begining of time people have wondered, what music are people listening to right now?
 
 ![](https://github.com/ilya0/Project-4/blob/master/ERD/enstein.jpg)
 
@@ -40,8 +38,12 @@ Middleware - interfaces with the blockchain and holds all the api interfaces
 
 Blockchain - records all the data for immutiblity 
 
-Steps should be as follows 
+## Deployment and Using the App
+
+
+
 #### Creating blockchain instance
+
 This guide is made with the assumtion that a blockchain instance has already been created. In order to create a blockchain, if one is not available please follow the creating a blockchain instance guide.
 
 #### Checking the blockchain for runtime
@@ -74,47 +76,25 @@ npm start
 open http://localhost:4200
 
 ```
-Frontend test page will open on localhost:4200
+
+
+## Running tests
+
+No test need to be ran at this time
 
 
 
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment and Using the App
-
-Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* Dropwizard - Bla bla bla
-* Maven - Maybe
-* Atom - ergaerga
+* Angular 7
+* Node.js
+* oracle blockchain
 
 ##Unsolved problems, etc.
 
-* needs description in profiles
+* CORs issue is currently underdevelopment, and in order to use the front end cors plugin needs to be used in chrome
 * could use a beutified layout
-* search functionality
 * styling
 
 ## Contributing
@@ -123,7 +103,7 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+1.0.0
 
 ## Authors
 
@@ -138,6 +118,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
+* App Dev Oracle Hub
