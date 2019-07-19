@@ -1,0 +1,171 @@
+
+<!-- networks status not working -->
+
+<div class="statusblock">
+     Overall Network status - {{ networkstatus ? "Network Fully Functioning" : "There are issues" }}
+
+      <div class="led-box">
+
+         <div [ngClass]="{ 
+          'led-green': networkstatus == true,
+          'led-red': networkstatus == down }"></div>
+        </div>
+
+</div>
+
+
+<div class="statusblock">
+    Block Chain status - {{ blockchainstatus ? "System Functioning" : "System Down" }}
+    <div class="led-box">
+        <div [ngClass]="{ 
+        'led-green': blockchainstatus == true,
+        'led-red': blockchainstatus == false }"></div>
+      </div>
+
+      <div>
+          Block Chain version - {{ bcversion ? bcversion.version : "Not Connected" }}
+      </div>
+    
+</div>
+
+
+<div class="statusblock">
+     MiddleWare status - {{ middlewarestatus ? "System Functioning" : "System Down"}}
+    <div class="led-box">
+        <div [ngClass]="{ 
+        'led-green': middlewarestatus == true,
+        'led-red': middlewarestatus == false }"></div>
+      </div>
+</div>
+
+
+<div class="statusblock">
+    OIC Connector Status - {{ oicstatus ? "System Functioning" : "System Down" }}
+    <div class="led-box">
+        <div [ngClass]="{
+        'led-green': oicstatus == true,
+        'led-red': oicstatus == false }"></div>
+      </div>
+</div>
+
+
+<div class="statusblock">
+    Single View status - {{ app1 ? "System Functioning" : "System Down" }}
+    <div class="led-box">
+        <div [ngClass]="{ 
+        'led-green': app1status == true,
+        'led-red': app1status == false }"></div>
+      </div>
+</div>
+
+<div class="statusblock">
+     Siebel status - {{ app2 ? "System Functioning" : "System Down" }}
+    <div class="led-box">
+        <div [ngClass]="{ 
+        'led-green': app2status == true,
+        'led-red': app2status == false }"></div>
+      </div>
+</div> 
+
+
+
+
+<!-- last 5 transactions -->
+<h1> Recent transactions</h1>
+
+<div *ngIf="loadingtransactions">
+    <div class="center-div">
+        <div class="center-div" style="width: 400px;">
+          <h1>
+            Contacting Block Chain for Transactions ....
+          </h1>
+          <div class="center-div" style="width: 100px;">
+              <img  src="assets/4partpreloader.gif" /> 
+            </div>
+        </div>
+    </div>
+  </div>
+  
+
+<table *ngIf="loadingtransactions == false" style="width:100%;" >
+    <tr>
+      <th>TxID</th>
+      <th>Time</th>
+      <th>Objectype</th> 
+      <th>Asset ID</th>
+      <th>Current Price</th>
+      <th>Pi Percent</th>
+      <th>picap</th>
+      <th>piperiod</th>
+      <th>newprice</th>
+      <th>state</th>
+    </tr>
+
+
+
+    <tr *ngFor="let transactions of (transactions | slice:transactions.length - 5).reverse()">
+      <td>{{ transactions }}</td> 
+      <!-- need to add truncated TxID -->
+      <td>{{ transactions.Timestamp }}</td>
+      <td>{{ transactions.Value.objecttype }}</td>
+      <td>{{ transactions.Value.assetid }}</td> 
+      <td>{{ transactions.Value.curprice }}</td> 
+      <td>{{ transactions.Value.pipercent }}</td> 
+      <td>{{ transactions.Value.picap }}</td> 
+      <td>{{ transactions.Value.piperiod }}</td> 
+      <td>{{ transactions.Value.newprice }}</td> 
+
+
+      <td>
+        {{ transactions.Value.state }}
+     </td>
+
+    </tr>
+
+  </table>
+
+
+  <h1> Recently populated Assets</h1>
+
+<div *ngIf="loadingrenewals">
+    <div class="center-div">
+        <div class="center-div" style="width: 400px;">
+          <h1>
+            Contacting Block Chain for Renewals list....
+          </h1>
+          <div class="center-div" style="width: 100px;">
+              <img  src="assets/4partpreloader.gif" /> 
+            </div>
+        </div>
+    </div>
+  </div>
+  
+
+<table *ngIf="loadingrenewals == false" style="width:100%;" >
+    <tr>
+      <th>Asset ID</th>
+      <th>Objectype</th> 
+      <th>Price Cap</th>
+      <th>Price Period</th>
+      <th>Price Change</th>
+      <th>Current Status</th>
+    </tr>
+
+    <tr *ngFor="let renewal of (renewals | slice:renewals.length - 5).reverse()">
+      <td>{{ renewal.assetid }}</td> 
+      <td>{{ renewal.objecttype }}</td>
+      <td>{{ renewal.picap }}</td> 
+      <td>{{ renewal.piperiod }}</td> 
+      <td>{{ renewal.curprice }}</td> 
+
+
+      <td [ngClass]="{ 'accept': renewal.state == 'accept',
+                          'neg': renewal.state != 'accept' }" >
+        {{ renewal.state }}
+     </td>
+
+    </tr>
+
+  </table>
+
+

@@ -1,0 +1,330 @@
+{
+	"info": {
+		"_postman_id": "f6853996-0949-4205-b876-c907bb0215ec",
+		"name": "Equinix",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "View Status of blockchain",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "faciaL@8PyjAMa",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "cloud.admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://cloudforcebcmanager-gse00015180.blockchain.ocp.oraclecloud.com:443/restproxy1/bcsgw/rest/v1/transaction?channel=default&txid=f6f256612bd43f742a64589637e82062bb878572fdc83f1a433414c702c6f4e3",
+					"protocol": "https",
+					"host": [
+						"cloudforcebcmanager-gse00015180",
+						"blockchain",
+						"ocp",
+						"oraclecloud",
+						"com"
+					],
+					"port": "443",
+					"path": [
+						"restproxy1",
+						"bcsgw",
+						"rest",
+						"v1",
+						"transaction"
+					],
+					"query": [
+						{
+							"key": "channel",
+							"value": "default"
+						},
+						{
+							"key": "txid",
+							"value": "f6f256612bd43f742a64589637e82062bb878572fdc83f1a433414c702c6f4e3"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "sendRenewal",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "foCal@5BeaRing",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "cloud.admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"channel\":  \"renewals\",\n\"chaincode\":  \"end2end\",\n\"method\":  \"sendRenewal\",\n\"args\":  [\"4\",\"$100\",\"$200\",\"$300\",\"1yr\",\"$200\",\"rejected\"]\n}"
+				},
+				"url": {
+					"raw": "https://935A346CB20A4F699DE07CCBC39F7F1E.blockchain.ocp.oraclecloud.com:443/restproxy1/bcsgw/rest/v1/transaction/invocation",
+					"protocol": "https",
+					"host": [
+						"935A346CB20A4F699DE07CCBC39F7F1E",
+						"blockchain",
+						"ocp",
+						"oraclecloud",
+						"com"
+					],
+					"port": "443",
+					"path": [
+						"restproxy1",
+						"bcsgw",
+						"rest",
+						"v1",
+						"transaction",
+						"invocation"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updateRenewal",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "foCal@5BeaRing",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "cloud.admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"channel\":  \"renewals\",\n\"chaincode\":  \"end2end\",\n\"method\":  \"updateRenewal\",\n\"args\":  [\"4\",\"$100\",\"$200\",\"$300\",\"1yr\",\"$200\",\"rejected\"]\n}"
+				},
+				"url": {
+					"raw": "https://935A346CB20A4F699DE07CCBC39F7F1E.blockchain.ocp.oraclecloud.com:443/restproxy1/bcsgw/rest/v1/transaction/invocation",
+					"protocol": "https",
+					"host": [
+						"935A346CB20A4F699DE07CCBC39F7F1E",
+						"blockchain",
+						"ocp",
+						"oraclecloud",
+						"com"
+					],
+					"port": "443",
+					"path": [
+						"restproxy1",
+						"bcsgw",
+						"rest",
+						"v1",
+						"transaction",
+						"invocation"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "queryRenewal",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "foCal@5BeaRing",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "cloud.admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"channel\":  \"renewals\",\n\"chaincode\":  \"end2end\",\n\"method\":  \"queryRenewal\",\n\"args\":  [\"4\"]\n}"
+				},
+				"url": {
+					"raw": "https://935A346CB20A4F699DE07CCBC39F7F1E.blockchain.ocp.oraclecloud.com:443/restproxy1/bcsgw/rest/v1/transaction/invocation",
+					"protocol": "https",
+					"host": [
+						"935A346CB20A4F699DE07CCBC39F7F1E",
+						"blockchain",
+						"ocp",
+						"oraclecloud",
+						"com"
+					],
+					"port": "443",
+					"path": [
+						"restproxy1",
+						"bcsgw",
+						"rest",
+						"v1",
+						"transaction",
+						"invocation"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "queryHistoryofRenewal",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "foCal@5BeaRing",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "cloud.admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"channel\":  \"renewals\",\n\"chaincode\":  \"end2end\",\n\"method\":  \"queryHistoryofRenewal\",\n\"args\":  [\"4\"]\n}"
+				},
+				"url": {
+					"raw": "https://935A346CB20A4F699DE07CCBC39F7F1E.blockchain.ocp.oraclecloud.com:443/restproxy1/bcsgw/rest/v1/transaction/invocation",
+					"protocol": "https",
+					"host": [
+						"935A346CB20A4F699DE07CCBC39F7F1E",
+						"blockchain",
+						"ocp",
+						"oraclecloud",
+						"com"
+					],
+					"port": "443",
+					"path": [
+						"restproxy1",
+						"bcsgw",
+						"rest",
+						"v1",
+						"transaction",
+						"invocation"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "respondRenewal",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "foCal@5BeaRing",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "cloud.admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"channel\":  \"renewals\",\n\"chaincode\":  \"end2end\",\n\"method\":  \"respondRenewal\",\n\"args\":  [\"7\", \"deny\"]\n}"
+				},
+				"url": {
+					"raw": "https://935A346CB20A4F699DE07CCBC39F7F1E.blockchain.ocp.oraclecloud.com:443/restproxy1/bcsgw/rest/v1/transaction/invocation",
+					"protocol": "https",
+					"host": [
+						"935A346CB20A4F699DE07CCBC39F7F1E",
+						"blockchain",
+						"ocp",
+						"oraclecloud",
+						"com"
+					],
+					"port": "443",
+					"path": [
+						"restproxy1",
+						"bcsgw",
+						"rest",
+						"v1",
+						"transaction",
+						"invocation"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

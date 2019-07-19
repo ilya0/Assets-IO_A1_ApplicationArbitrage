@@ -1,0 +1,132 @@
+<h1>Renewal Submission test page</h1>
+
+<form [formGroup]="messageForm" (ngSubmit)="onSubmit()">
+
+    <h5 *ngIf="success">Your form is valid!</h5>
+
+    Block Chain information
+    <label>
+      Channel
+      <input  type="text" formControlName="channel" >
+      <div *ngIf="submitted && messageForm.controls.channel.errors" class="error">
+        <div *ngIf="messageForm.controls.channel.errors.required">Channel required</div>
+      </div>
+    </label>
+
+   
+  
+    <label>
+      Chaincode
+      <textarea  formControlName="chaincode"></textarea>
+      <div *ngIf="submitted && messageForm.controls.chaincode.errors" class="error">
+        <div *ngIf="messageForm.controls.chaincode.errors.required">Chanincode name required</div>
+      </div>
+      {{ this.chaincodevar }}
+
+    </label>
+
+    Arguments - "args":  ["assetid","$Currentprice","$Price Cap","$New Price","state","$200"
+
+
+    <label>
+        Asset ID
+        <textarea formControlName="assetid"></textarea>
+        <div *ngIf="submitted && messageForm.controls.message.errors" class="error">
+          <div *ngIf="messageForm.controls.message.errors.required">Asset ID is required</div>
+        </div>
+      </label>
+
+
+
+      <label>
+          Current Price
+          <textarea formControlName="currentprice"></textarea>
+          <div *ngIf="submitted && messageForm.controls.message.errors" class="error">
+            <div *ngIf="messageForm.controls.message.errors.required">Current Price is required</div>
+          </div>
+        </label>
+
+        <label>
+          Price Percent
+          <textarea formControlName="pricepercent"></textarea>
+          <div *ngIf="submitted && messageForm.controls.message.errors" class="error">
+            <div *ngIf="messageForm.controls.message.errors.required">Price Price Percent required</div>
+          </div>
+        </label>
+
+        <label>
+            Price Cap
+            <textarea formControlName="pricecap"></textarea>
+            <div *ngIf="submitted && messageForm.controls.message.errors" class="error">
+              <div *ngIf="messageForm.controls.message.errors.required">Price Cap required</div>
+            </div>
+          </label>
+
+          <label>
+              Price Period
+              <textarea formControlName="priceperiod"></textarea>
+              <div *ngIf="submitted && messageForm.controls.message.errors" class="error">
+                <div *ngIf="messageForm.controls.message.errors.required">Time Period required</div>
+              </div>
+            </label>
+
+            <label>
+                New Price
+                <textarea formControlName="newprice"></textarea>
+                <div *ngIf="submitted && messageForm.controls.message.errors" class="error">
+                  <div *ngIf="messageForm.controls.message.errors.required">New price required</div>
+                </div>
+              </label>
+
+              <label>
+                  State (Sent, Accepted, Rejected)
+                  <textarea formControlName="state"></textarea>
+                  <div *ngIf="submitted && messageForm.controls.message.errors" class="error">
+                    <div *ngIf="messageForm.controls.message.errors.required">A state is required</div>
+                  </div>
+                </label>
+
+      
+
+    <!-- shows if loading is false -->
+    <input type="submit" value="Send Renewal" class="cta" *ngIf="loading==false" >
+     
+
+    <!-- preloader if loading is true -->
+    <div *ngIf="loading">
+      <img  style ="height: 35px" src="assets/4partpreloader.gif" /> 
+      <p style="display:inline; font-size: 50px; padding-left:20px; ">Submitting </p>
+      <img  style ="height: 35px" src="assets/4partpreloader.gif" /> 
+    </div>
+
+    <div *ngIf="errormessage">
+        ERRRRRRRRRRRRORRRRRRRRRR 
+
+
+      <div>
+         Error code -  {{ errormessagecode }} 
+      </div>
+
+    <div>
+        {{ errormessage }}
+    </div>
+       
+        
+      </div>
+
+  </form>
+
+
+
+
+  <div *ngIf="submitted" class="results">
+    <strong>Name:</strong> 
+    <span>{{ messageForm.controls.name.value }}</span>
+
+    <strong>Message:</strong> 
+    <span>{{ messageForm.controls.message.value }}</span>
+  </div>
+
+
+
+  

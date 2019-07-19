@@ -1,0 +1,707 @@
+MIME-Version: 1.0
+Message-ID: <e1313de9-534c-4926-a18a-4bf9ff58af07@default>
+Date: Fri, 21 Dec 2018 16:19:50 -0800 (PST)
+From: Mark Rakhmilevich <mark.rakhmilevich@oracle.com>
+Sender: Mark Rakhmilevich <mark.rakhmilevich@oracle.com>
+To: Venkat Bolineni <vbolineni@equinix.com>, Noah Holton Raphael
+ <noah.holton.raphael@oracle.com>
+Cc: Ilya Osovets <ilya.osovets@oracle.com>, Mohan Dutt <mdutt@equinix.com>,
+ Venkata Mahidhar Murarisetty <vmahidhar@equinix.com>, Basan Jagerkal
+ <bjagerkal@equinix.com>, Bhavin Shah <bhavin.s.shah@oracle.com>, Darshan
+ Sapaliga <darshan.sapaliga@oracle.com>
+Subject: RE: Blockchain Design Model
+References: <87dc60ee-36b3-4e08-8e39-52aa5fb3210c@default>
+ <BYAPR04MB3864B3F04F8863E90A1C6B1BB0B80@BYAPR04MB3864.namprd04.prod.outlook.com>
+ <49A5559D-7B54-4066-BE23-2D87B69C75F8@oracle.com>
+ <21066a06-4b1f-4b61-97a4-59f86a77e835@default>
+ <BYAPR04MB3864486EC3AF9D2F0EA1B03FB0B80@BYAPR04MB3864.namprd04.prod.outlook.com>
+In-Reply-To: <BYAPR04MB3864486EC3AF9D2F0EA1B03FB0B80@BYAPR04MB3864.namprd04.prod.outlook.com>
+X-Priority: 3
+X-Mailer: Oracle Beehive Extensions for Outlook 2.0.1.9.1  (1003210) [OL
+ 16.0.4771.0 (x86)]
+Content-Type: multipart/mixed;
+ boundary="__1545437994471265566abhmp0015.oracle.com"
+
+--__1545437994471265566abhmp0015.oracle.com
+Content-Type: multipart/alternative;
+ boundary="__1545437994472265567abhmp0015.oracle.com"
+
+--__1545437994472265567abhmp0015.oracle.com
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Folks,
+
+=C2=A0=C2=A0=C2=A0 Here=E2=80=99s the updated design spreadsheet.=C2=A0 Tha=
+nks for your time to review and finalize it.=C2=A0=20
+
+=C2=A0
+
+=C2=A0=C2=A0=C2=A0 We=E2=80=99ll work with the Hub team to start developmen=
+t of the Golang chaincode and the UI component once they return from Oracle=
+=E2=80=99s mandatory closure next week, and have an update call second week=
+ of January to review status and share REST API details (endpoint and json =
+bodies for integration with Single View and Siebel).
+
+=C2=A0
+
+=C2=A0=C2=A0=C2=A0 In the meanwhile, please research how to call REST APIs =
+from Single View and how to map event callbacks to Single View and Siebel w=
+eb services APIs.
+
+=C2=A0
+
+Thanks,
+
+=C2=A0=C2=A0=C2=A0 Mark
+
+=C2=A0
+
+From: Venkat Bolineni <vbolineni@equinix.com>=20
+Sent: Friday, December 21, 2018 3:15 PM
+To: Mark Rakhmilevich <mark.rakhmilevich@oracle.com>; Noah Holton Raphael <=
+noah.holton.raphael@oracle.com>
+Cc: Ilya Osovets <ilya.osovets@oracle.com>; Mohan Dutt <mdutt@equinix.com>;=
+ Venkata Mahidhar Murarisetty <vmahidhar@equinix.com>; Basan Jagerkal <bjag=
+erkal@equinix.com>; Bhavin Shah <bhavin.s.shah@oracle.com>
+Subject: RE: Blockchain Design Model
+
+=C2=A0
+
+Thank you Mark
+
+Thanks,
+
+Venkat Bolineni
+
+=C2=A0
+
+From: Mark Rakhmilevich <HYPERLINK "mailto:mark.rakhmilevich@oracle.com"mar=
+k.rakhmilevich@oracle.com>=20
+Sent: Friday, December 21, 2018 3:13 PM
+To: Noah Holton Raphael <HYPERLINK "mailto:noah.holton.raphael@oracle.com"n=
+oah.holton.raphael@oracle.com>; Venkat Bolineni <HYPERLINK "mailto:vbolinen=
+i@equinix.com"vbolineni@equinix.com>
+Cc: Ilya Osovets <HYPERLINK "mailto:ilya.osovets@oracle.com"ilya.osovets@or=
+acle.com>; Mohan Dutt <HYPERLINK "mailto:mdutt@equinix.com"mdutt@equinix.co=
+m>; Venkata Mahidhar Murarisetty <HYPERLINK "mailto:vmahidhar@equinix.com"v=
+mahidhar@equinix.com>; Basan Jagerkal <HYPERLINK "mailto:bjagerkal@equinix.=
+com"bjagerkal@equinix.com>; Bhavin Shah <HYPERLINK "mailto:bhavin.s.shah@or=
+acle.com"bhavin.s.shah@oracle.com>
+Subject: RE: Blockchain Design Model
+
+=C2=A0
+
+Logistics for 3:30 meeting:=20
+
+=C2=A0
+
+Zoom URL: HYPERLINK "https://urldefense.proofpoint.com/v2/url?u=3Dhttps-3A_=
+_oracle.zoom.us_my_mark.rakhmilevich-3Fpwd-3DOWd4RmdDUlRwbVgwOHprQVlkd253UT=
+09&d=3DDwMGaQ&c=3DRoP1YumCXCgaWHvlZYR8PZh8Bv7qIrMUB65eapI_JnE&r=3DZ_9jtDh94=
+EnHt7GPqOB3NUhPfzefeF2O372fLhK9oSk&m=3DLI7ls_AIyRXFwoN5NNyZLy3porKf25H4U1tK=
+hTAfalc&s=3D-b-XEsMJqD0Cmi3nOomQTnwKuveyFnMs6BvThzWdxHQ&e=3D"https://oracle=
+.zoom.us/my/mark.rakhmilevich?pwd=3DOWd4RmdDUlRwbVgwOHprQVlkd253UT09
+
+=C2=A0
+
+Audio: Intercall dial-in: 1-866-682-4770 confcode: 295.84.66, passcode: 565=
+800
+
+=C2=A0
+
+Thanks,
+
+=C2=A0=C2=A0=C2=A0 Mark
+
+=C2=A0
+
+From: Noah Holton-Raphael=20
+Sent: Friday, December 21, 2018 2:11 PM
+To: Venkat Bolineni <HYPERLINK "mailto:vbolineni@equinix.com"vbolineni@equi=
+nix.com>
+Cc: Mark Rakhmilevich <HYPERLINK "mailto:mark.rakhmilevich@oracle.com"mark.=
+rakhmilevich@oracle.com>; Ilya Osovets <HYPERLINK "mailto:ilya.osovets@orac=
+le.com"ilya.osovets@oracle.com>; Mohan Dutt <HYPERLINK "mailto:mdutt@equini=
+x.com"mdutt@equinix.com>; Venkata Mahidhar Murarisetty <HYPERLINK "mailto:v=
+mahidhar@equinix.com"vmahidhar@equinix.com>; Basan Jagerkal <HYPERLINK "mai=
+lto:bjagerkal@equinix.com"bjagerkal@equinix.com>
+Subject: Re: Blockchain Design Model
+
+=C2=A0
+
+Venkat,
+
+=C2=A0
+
+I am about to board a flight home, however I have let Mark know that 3:30 w=
+orks for you. He should be sending over dial-in information.
+
+=C2=A0
+
+Thanks,
+
+Noah
+
+Sent from my iPhone
+
+
+On Dec 21, 2018, at 12:39 PM, Venkat Bolineni <HYPERLINK "mailto:vbolineni@=
+equinix.com"vbolineni@equinix.com> wrote:
+
+Hi Noah,
+
+=C2=A0
+
+Yes, we are available and try to pull few of our team members as well. Plea=
+se confirm and send us the Invite with call in numbers
+
+=C2=A0
+
+Appreciate you help
+
+Thanks,
+
+Venkat Bolineni
+
+=C2=A0
+
+From: Noah Holton Raphael <HYPERLINK "mailto:noah.holton.raphael@oracle.com=
+"noah.holton.raphael@oracle.com>=20
+Sent: Friday, December 21, 2018 10:53 AM
+To: Venkat Bolineni <HYPERLINK "mailto:vbolineni@equinix.com"vbolineni@equi=
+nix.com>; Mark Rakhmilevich <HYPERLINK "mailto:mark.rakhmilevich@oracle.com=
+"mark.rakhmilevich@oracle.com>
+Cc: Ilya Osovets <HYPERLINK "mailto:ilya.osovets@oracle.com"ilya.osovets@or=
+acle.com>
+Subject: Blockchain Design Model
+
+=C2=A0
+
+Venkat,
+
+=C2=A0
+
+Please see the blockchain design model from Mark. Does 3:30 PM PST work for=
+ this afternoon? Thanks and please let me know.
+
+=C2=A0
+
+Noah
+
+=C2=A0
+
+<image002.png>
+
+Noah Holton-Raphael | Technology Account Executive
+
+O: (781) 238-9860 | C: (973) 487-8909=20
+1620 26th Street | Santa Monica, CA 90404 USA
+Database, Middleware & Infrastructure=20
+Oracle HYPERLINK "https://urldefense.proofpoint.com/v2/url?u=3Dhttps-3A__cl=
+oud.oracle.com_en-5FUS_paas&d=3DDwMFAg&c=3DgxW9PgscCAGwFImBgfkGkoANogu61GVP=
+Nv0sglxAtik&r=3Dv4UDuFaefpVLY424wwgMDaIF2G_vq9LFaAWryo8cKGM&m=3Dtgtn9cKmd4a=
+UuO5QLC2Ik04KauTmKn3VIb-4XYPwFpM&s=3DaZdeRSJrwmOVn2jWhrR97YGMJYFuVU3m68M85y=
+ycmqM&e=3D"Cloud Platform Services
+
+=C2=A0
+
+--__1545437994472265567abhmp0015.oracle.com
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40"><head><meta http-equiv=3DContent-Type content=
+=3D"text/html; charset=3Dutf-8"><meta name=3DGenerator content=3D"Microsoft=
+ Word 15 (filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+=09{font-family:Helvetica;
+=09panose-1:2 11 6 4 2 2 2 2 2 4;}
+@font-face
+=09{font-family:"Cambria Math";
+=09panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+=09{font-family:Calibri;
+=09panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+=09{font-family:"Segoe UI";
+=09panose-1:2 11 5 2 4 2 4 2 2 3;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+=09{margin:0in;
+=09margin-bottom:.0001pt;
+=09font-size:11.0pt;
+=09font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+=09{mso-style-priority:99;
+=09color:#0563C1;
+=09text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+=09{mso-style-priority:99;
+=09color:#954F72;
+=09text-decoration:underline;}
+p.msonormal0, li.msonormal0, div.msonormal0
+=09{mso-style-name:msonormal;
+=09mso-margin-top-alt:auto;
+=09margin-right:0in;
+=09mso-margin-bottom-alt:auto;
+=09margin-left:0in;
+=09font-size:11.0pt;
+=09font-family:"Calibri",sans-serif;}
+span.EmailStyle18
+=09{mso-style-type:personal;
+=09font-family:"Calibri",sans-serif;
+=09color:windowtext;}
+span.EmailStyle19
+=09{mso-style-type:personal;
+=09font-family:"Calibri",sans-serif;
+=09color:windowtext;}
+span.EmailStyle20
+=09{mso-style-type:personal;
+=09font-family:"Calibri",sans-serif;
+=09color:#1F497D;}
+span.EmailStyle21
+=09{mso-style-type:personal;
+=09font-family:"Calibri",sans-serif;
+=09color:windowtext;}
+span.EmailStyle22
+=09{mso-style-type:personal-reply;
+=09font-family:"Calibri",sans-serif;
+=09color:#1F497D;}
+.MsoChpDefault
+=09{mso-style-type:export-only;
+=09font-size:10.0pt;}
+@page WordSection1
+=09{size:8.5in 11.0in;
+=09margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+=09{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-US link=3D"#0563C1=
+" vlink=3D"#954F72"><div class=3DWordSection1><p class=3DMsoNormal><span st=
+yle=3D'color:#1F497D'>Folks,<o:p></o:p></span></p><p class=3DMsoNormal><spa=
+n style=3D'color:#1F497D'>=C2=A0=C2=A0=C2=A0 Here=E2=80=99s the updated des=
+ign spreadsheet.=C2=A0 Thanks for your time to review and finalize it.=C2=
+=A0 <o:p></o:p></span></p><p class=3DMsoNormal><span style=3D'color:#1F497D=
+'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span style=3D'color:#1F=
+497D'>=C2=A0=C2=A0=C2=A0 We=E2=80=99ll work with the Hub team to start deve=
+lopment of the Golang chaincode and the UI component once they return from =
+Oracle=E2=80=99s mandatory closure next week, and have an update call secon=
+d week of January to review status and share REST API details (endpoint and=
+ json bodies for integration with Single View and Siebel).<o:p></o:p></span=
+></p><p class=3DMsoNormal><span style=3D'color:#1F497D'><o:p>&nbsp;</o:p></=
+span></p><p class=3DMsoNormal><span style=3D'color:#1F497D'>=C2=A0=C2=A0=C2=
+=A0 In the meanwhile, please research how to call REST APIs from Single Vie=
+w and how to map event callbacks to Single View and Siebel web services API=
+s.<o:p></o:p></span></p><p class=3DMsoNormal><span style=3D'color:#1F497D'>=
+<o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span style=3D'color:#1F49=
+7D'>Thanks,<o:p></o:p></span></p><p class=3DMsoNormal><span style=3D'color:=
+#1F497D'>=C2=A0=C2=A0=C2=A0 Mark<o:p></o:p></span></p><p class=3DMsoNormal>=
+<span style=3D'color:#1F497D'><o:p>&nbsp;</o:p></span></p><div><div style=
+=3D'border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0in 0in 0in'><=
+p class=3DMsoNormal><b>From:</b> Venkat Bolineni &lt;vbolineni@equinix.com&=
+gt; <br><b>Sent:</b> Friday, December 21, 2018 3:15 PM<br><b>To:</b> Mark R=
+akhmilevich &lt;mark.rakhmilevich@oracle.com&gt;; Noah Holton Raphael &lt;n=
+oah.holton.raphael@oracle.com&gt;<br><b>Cc:</b> Ilya Osovets &lt;ilya.osove=
+ts@oracle.com&gt;; Mohan Dutt &lt;mdutt@equinix.com&gt;; Venkata Mahidhar M=
+urarisetty &lt;vmahidhar@equinix.com&gt;; Basan Jagerkal &lt;bjagerkal@equi=
+nix.com&gt;; Bhavin Shah &lt;bhavin.s.shah@oracle.com&gt;<br><b>Subject:</b=
+> RE: Blockchain Design Model<o:p></o:p></p></div></div><p class=3DMsoNorma=
+l><o:p>&nbsp;</o:p></p><p class=3DMsoNormal>Thank you Mark<o:p></o:p></p><p=
+ class=3DMsoNormal>Thanks,<o:p></o:p></p><p class=3DMsoNormal>Venkat Boline=
+ni<o:p></o:p></p><p class=3DMsoNormal><o:p>&nbsp;</o:p></p><div><div style=
+=3D'border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0in 0in 0in'><=
+p class=3DMsoNormal><b>From:</b> Mark Rakhmilevich &lt;<a href=3D"mailto:ma=
+rk.rakhmilevich@oracle.com">mark.rakhmilevich@oracle.com</a>&gt; <br><b>Sen=
+t:</b> Friday, December 21, 2018 3:13 PM<br><b>To:</b> Noah Holton Raphael =
+&lt;<a href=3D"mailto:noah.holton.raphael@oracle.com">noah.holton.raphael@o=
+racle.com</a>&gt;; Venkat Bolineni &lt;<a href=3D"mailto:vbolineni@equinix.=
+com">vbolineni@equinix.com</a>&gt;<br><b>Cc:</b> Ilya Osovets &lt;<a href=
+=3D"mailto:ilya.osovets@oracle.com">ilya.osovets@oracle.com</a>&gt;; Mohan =
+Dutt &lt;<a href=3D"mailto:mdutt@equinix.com">mdutt@equinix.com</a>&gt;; Ve=
+nkata Mahidhar Murarisetty &lt;<a href=3D"mailto:vmahidhar@equinix.com">vma=
+hidhar@equinix.com</a>&gt;; Basan Jagerkal &lt;<a href=3D"mailto:bjagerkal@=
+equinix.com">bjagerkal@equinix.com</a>&gt;; Bhavin Shah &lt;<a href=3D"mail=
+to:bhavin.s.shah@oracle.com">bhavin.s.shah@oracle.com</a>&gt;<br><b>Subject=
+:</b> RE: Blockchain Design Model<o:p></o:p></p></div></div><p class=3DMsoN=
+ormal><o:p>&nbsp;</o:p></p><p class=3DMsoNormal><span style=3D'color:#1F497=
+D'>Logistics for 3:30 meeting: <o:p></o:p></span></p><p class=3DMsoNormal><=
+span style=3D'color:#1F497D'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNorm=
+al><span style=3D'color:#1F497D'>Zoom URL: <a href=3D"https://urldefense.pr=
+oofpoint.com/v2/url?u=3Dhttps-3A__oracle.zoom.us_my_mark.rakhmilevich-3Fpwd=
+-3DOWd4RmdDUlRwbVgwOHprQVlkd253UT09&amp;d=3DDwMGaQ&amp;c=3DRoP1YumCXCgaWHvl=
+ZYR8PZh8Bv7qIrMUB65eapI_JnE&amp;r=3DZ_9jtDh94EnHt7GPqOB3NUhPfzefeF2O372fLhK=
+9oSk&amp;m=3DLI7ls_AIyRXFwoN5NNyZLy3porKf25H4U1tKhTAfalc&amp;s=3D-b-XEsMJqD=
+0Cmi3nOomQTnwKuveyFnMs6BvThzWdxHQ&amp;e=3D">https://oracle.zoom.us/my/mark.=
+rakhmilevich?pwd=3DOWd4RmdDUlRwbVgwOHprQVlkd253UT09</a><o:p></o:p></span></=
+p><p class=3DMsoNormal><span style=3D'color:#1F497D'><o:p>&nbsp;</o:p></spa=
+n></p><p class=3DMsoNormal style=3D'text-autospace:none'><span style=3D'col=
+or:#1F497D'>Audio: </span><span style=3D'font-size:11.5pt;font-family:"Sego=
+e UI",sans-serif;color:black'>Intercall dial-in: 1-866-682-4770 confcode: 2=
+95.84.66, passcode: 565800<o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'color:#1F497D'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><s=
+pan style=3D'color:#1F497D'>Thanks,<o:p></o:p></span></p><p class=3DMsoNorm=
+al><span style=3D'color:#1F497D'>&nbsp;&nbsp;&nbsp; Mark<o:p></o:p></span><=
+/p><p class=3DMsoNormal><span style=3D'color:#1F497D'><o:p>&nbsp;</o:p></sp=
+an></p><div><div style=3D'border:none;border-top:solid #E1E1E1 1.0pt;paddin=
+g:3.0pt 0in 0in 0in'><p class=3DMsoNormal><b>From:</b> Noah Holton-Raphael =
+<br><b>Sent:</b> Friday, December 21, 2018 2:11 PM<br><b>To:</b> Venkat Bol=
+ineni &lt;<a href=3D"mailto:vbolineni@equinix.com">vbolineni@equinix.com</a=
+>&gt;<br><b>Cc:</b> Mark Rakhmilevich &lt;<a href=3D"mailto:mark.rakhmilevi=
+ch@oracle.com">mark.rakhmilevich@oracle.com</a>&gt;; Ilya Osovets &lt;<a hr=
+ef=3D"mailto:ilya.osovets@oracle.com">ilya.osovets@oracle.com</a>&gt;; Moha=
+n Dutt &lt;<a href=3D"mailto:mdutt@equinix.com">mdutt@equinix.com</a>&gt;; =
+Venkata Mahidhar Murarisetty &lt;<a href=3D"mailto:vmahidhar@equinix.com">v=
+mahidhar@equinix.com</a>&gt;; Basan Jagerkal &lt;<a href=3D"mailto:bjagerka=
+l@equinix.com">bjagerkal@equinix.com</a>&gt;<br><b>Subject:</b> Re: Blockch=
+ain Design Model<o:p></o:p></p></div></div><p class=3DMsoNormal><o:p>&nbsp;=
+</o:p></p><p class=3DMsoNormal>Venkat,<span style=3D'font-size:12.0pt'><o:p=
+></o:p></span></p><div><p class=3DMsoNormal><o:p>&nbsp;</o:p></p></div><div=
+><p class=3DMsoNormal>I am about to board a flight home, however I have let=
+ Mark know that 3:30 works for you. He should be sending over dial-in infor=
+mation.<o:p></o:p></p></div><div><p class=3DMsoNormal><o:p>&nbsp;</o:p></p>=
+</div><div><p class=3DMsoNormal>Thanks,<o:p></o:p></p></div><div><p class=
+=3DMsoNormal style=3D'margin-bottom:12.0pt'>Noah<o:p></o:p></p><div id=3DAp=
+pleMailSignature><p class=3DMsoNormal>Sent from my iPhone<o:p></o:p></p></d=
+iv><div><p class=3DMsoNormal style=3D'margin-bottom:12.0pt'><br>On Dec 21, =
+2018, at 12:39 PM, Venkat Bolineni &lt;<a href=3D"mailto:vbolineni@equinix.=
+com">vbolineni@equinix.com</a>&gt; wrote:<o:p></o:p></p></div><blockquote s=
+tyle=3D'margin-top:5.0pt;margin-bottom:5.0pt'><div><p class=3DMsoNormal>Hi =
+Noah,<o:p></o:p></p><p class=3DMsoNormal>&nbsp;<o:p></o:p></p><p class=3DMs=
+oNormal>Yes, we are available and try to pull few of our team members as we=
+ll. Please confirm and send us the Invite with call in numbers<o:p></o:p></=
+p><p class=3DMsoNormal>&nbsp;<o:p></o:p></p><p class=3DMsoNormal>Appreciate=
+ you help<o:p></o:p></p><p class=3DMsoNormal>Thanks,<o:p></o:p></p><p class=
+=3DMsoNormal>Venkat Bolineni<o:p></o:p></p><p class=3DMsoNormal>&nbsp;<o:p>=
+</o:p></p><div><div style=3D'border:none;border-top:solid #E1E1E1 1.0pt;pad=
+ding:3.0pt 0in 0in 0in'><p class=3DMsoNormal><b>From:</b> Noah Holton Rapha=
+el &lt;<a href=3D"mailto:noah.holton.raphael@oracle.com">noah.holton.raphae=
+l@oracle.com</a>&gt; <br><b>Sent:</b> Friday, December 21, 2018 10:53 AM<br=
+><b>To:</b> Venkat Bolineni &lt;<a href=3D"mailto:vbolineni@equinix.com">vb=
+olineni@equinix.com</a>&gt;; Mark Rakhmilevich &lt;<a href=3D"mailto:mark.r=
+akhmilevich@oracle.com">mark.rakhmilevich@oracle.com</a>&gt;<br><b>Cc:</b> =
+Ilya Osovets &lt;<a href=3D"mailto:ilya.osovets@oracle.com">ilya.osovets@or=
+acle.com</a>&gt;<br><b>Subject:</b> Blockchain Design Model<o:p></o:p></p><=
+/div></div><p class=3DMsoNormal>&nbsp;<o:p></o:p></p><p class=3DMsoNormal>V=
+enkat,<o:p></o:p></p><p class=3DMsoNormal>&nbsp;<o:p></o:p></p><p class=3DM=
+soNormal>Please see the blockchain design model from Mark. Does 3:30 PM PST=
+ work for this afternoon? Thanks and please let me know.<o:p></o:p></p><p c=
+lass=3DMsoNormal>&nbsp;<o:p></o:p></p><p class=3DMsoNormal>Noah<o:p></o:p><=
+/p><p class=3DMsoNormal>&nbsp;<o:p></o:p></p><p class=3DMsoNormal><span sty=
+le=3D'font-size:13.5pt;font-family:"Helvetica",sans-serif;color:#1F497D'>&l=
+t;image002.png&gt;</span><o:p></o:p></p><p class=3DMsoNormal><b><span style=
+=3D'font-size:10.0pt;font-family:"Times New Roman",serif;color:#595959'>Noa=
+h Holton-Raphael</span></b><span style=3D'font-size:10.0pt;font-family:"Tim=
+es New Roman",serif;color:#666666'> <b>| Technology Account Executive</b></=
+span><o:p></o:p></p><p class=3DMsoNormal><span style=3D'font-size:10.0pt;fo=
+nt-family:"Times New Roman",serif;color:#666666'>O: (781) 238-9860 | C: (97=
+3) 487-8909 <br>1620 26<sup>th</sup> Street | Santa Monica, CA 90404 USA</s=
+pan><span style=3D'color:#595959'><br></span><span style=3D'font-family:"Ti=
+mes New Roman",serif;color:#595959'>Database, Middleware &amp; Infrastructu=
+re</span><span style=3D'color:#595959'> <br></span><span style=3D'color:red=
+'>Oracle</span><span style=3D'color:#595959'> </span><a href=3D"https://url=
+defense.proofpoint.com/v2/url?u=3Dhttps-3A__cloud.oracle.com_en-5FUS_paas&a=
+mp;d=3DDwMFAg&amp;c=3DgxW9PgscCAGwFImBgfkGkoANogu61GVPNv0sglxAtik&amp;r=3Dv=
+4UDuFaefpVLY424wwgMDaIF2G_vq9LFaAWryo8cKGM&amp;m=3Dtgtn9cKmd4aUuO5QLC2Ik04K=
+auTmKn3VIb-4XYPwFpM&amp;s=3DaZdeRSJrwmOVn2jWhrR97YGMJYFuVU3m68M85yycmqM&amp=
+;e=3D"><span style=3D'color:#7F7F7F'>Cloud Platform Services</span></a><o:p=
+></o:p></p><p class=3DMsoNormal>&nbsp;<o:p></o:p></p></div></blockquote></d=
+iv></div></body></html>
+--__1545437994472265567abhmp0015.oracle.com--
+
+--__1545437994471265566abhmp0015.oracle.com
+Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet;
+ name="Blockchain design model v2.xlsx"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="Blockchain design model v2.xlsx"
+
+UEsDBBQABgAIAAAAIQCmdARShQEAAKwHAAATAAgCW0NvbnRlbnRfVHlwZXNdLnhtbCCiBAIooAAC
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADM
+VcluwjAQvVfqP0S+VsRAF1UVgUOXY4sE/QATD8QisS3PQOHvOzFQVRWLEEjlkii25y0T+U2nt6jK
+ZA4BjbOZaKVNkYDNnTZ2konP4VvjUSRIympVOguZWAKKXvf6qjNcesCEqy1moiDyT1JiXkClMHUe
+LO+MXagU8WeYSK/yqZqAbDebDzJ3lsBSg2oM0e28wFjNSkpeF7y8UjIyViTPq3M1VSaU96XJFbFQ
+Obf6D0nDjccmB+3yWcXQKfoASmMBQFWZ+mCYMQyAiI2hkFs5A5R4HOnaVcqVURgWxuMNW9/BUO/s
+drWu++DfEYyGpK8CvauKvctFKb9cmI6cm6b7QY5tTWxRWiljN7r38MfDKOOrdWYhtb8IfKSO9oXo
+uL0QHXcXouP+QnQ8/JMO4iwEGZ+nX5UIc+BiIC1LwHPHQwQ9xFyoAHpAnLKTswv4jb1PB0d/PziP
+PF0CHN+FTZTX1Q3PQBDIwE+YbwvFH0YeTSe3HerZp0Fv4ZZx1na/AQAA//8DAFBLAwQUAAYACAAA
+ACEAtVUwI/QAAABMAgAACwAIAl9yZWxzLy5yZWxzIKIEAiigAAIAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKySTU/DMAyG70j8h8j31d2QEEJL
+d0FIuyFUfoBJ3A+1jaMkG92/JxwQVBqDA0d/vX78ytvdPI3qyCH24jSsixIUOyO2d62Gl/pxdQcq
+JnKWRnGs4cQRdtX11faZR0p5KHa9jyqruKihS8nfI0bT8USxEM8uVxoJE6UchhY9mYFaxk1Z3mL4
+rgHVQlPtrYawtzeg6pPPm3/XlqbpDT+IOUzs0pkVyHNiZ9mufMhsIfX5GlVTaDlpsGKecjoieV9k
+bMDzRJu/E/18LU6cyFIiNBL4Ms9HxyWg9X9atDTxy515xDcJw6vI8MmCix+o3gEAAP//AwBQSwME
+FAAGAAgAAAAhAA4VZMkWAQAAewUAABoACAF4bC9fcmVscy93b3JrYm9vay54bWwucmVscyCiBAEo
+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
+--__1545437994471265566abhmp0015.oracle.com--

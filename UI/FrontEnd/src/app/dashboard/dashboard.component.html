@@ -1,0 +1,54 @@
+<!-- renewals list is - home page -->
+
+
+<div *ngIf="loading">
+  
+  <div class="center-div">
+
+      <div class="center-div" style="width: 400px;">
+        <h1>
+          Contacting Block Chain....
+        </h1>
+        <div class="center-div" style="width: 100px;">
+            <img  src="assets/4partpreloader.gif" /> 
+          </div>
+      </div>
+  </div>
+</div>
+
+<h1 *ngIf="loading == false" [ngStyle]="{
+  'color': h1Style ? 'gray' : 'black',
+  'font-size': !h1Style ? '1em' : '4em'
+}"> Renewals List</h1>
+
+
+<table *ngIf="loading == false" style="width:100%;" >
+    <tr>
+      <th>Asset ID</th>
+      <th>Objectype</th> 
+      <th>Price Cap</th>
+      <th>Price Period</th>
+      <th>Price Change</th>
+      <th>Current Status</th>
+      <th> Acceptance </th>
+    </tr>
+
+    <tr *ngFor="let renewal of renewals.reverse()">
+      <td>{{ renewal.assetid }}</td> 
+      <td>{{ renewal.objecttype }}</td>
+      <td>{{ renewal.picap }}</td> 
+      <td>{{ renewal.piperiod }}</td> 
+      <td>{{ renewal.curprice }}</td> 
+      <td [ngClass]="{ 'accept': renewal.state == 'accept',
+                          'neg': renewal.state != 'accept' }" >
+        {{ renewal.state }}
+     </td>
+
+      <td>
+        <button (click)="firstClick()">Accept</button>
+        <button (click)="firstClick()">Reject</button>
+      </td>
+
+    </tr>
+
+  </table>
