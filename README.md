@@ -11,7 +11,7 @@ Application Arbitrage is a template created specifically to help with quickly de
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-![](https://github.com/ilya0/Project1/blob/master/readme%20files/Main%20setup%20front%20page.png)
+![](A1_Screenshots/Frontend.png)
 
 Link to [Item](http://ilya0.github.io/Project1)
 
@@ -21,11 +21,23 @@ Link to [Trello](https://trello.com/b/0pPnXkD1/project1-pvp)
 
 ### Prerequisities
 ------
+- Node JS
+- Angular CLI
+- NPM
 
-What things you need to install the software and how to install them
+Installing without Brew
 
 ```
-Give examples
+curl "https://nodejs.org/dist/latest/node-${VERSION:-$(wget -qO- https://nodejs.org/dist/latest/ | sed -nE 's|.*>node-(.*)\.pkg</a>.*|\1|p')}.pkg" > "$HOME/Downloads/node-latest.pkg" && sudo installer -store -pkg "$HOME/Downloads/node-latest.pkg" -target "/"
+npm install -g @angular/cli
+```
+
+
+With homebrew
+
+```
+brew install node
+brew install angular-cli
 ```
 
 ### Installing
@@ -107,7 +119,7 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 
 ## Authors
 
-* **Ilya Osovets** -- [ilya0](https://github.com/ilya0)
+**Ilya Osovets** -- [ilya0](https://github.com/ilya0)
 
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
