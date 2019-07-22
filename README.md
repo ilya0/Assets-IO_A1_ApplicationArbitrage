@@ -2,11 +2,8 @@
 
 Application Arbitrage is a template created specifically to help with quickly demonstrating the capabilities of blockchain and its ability to interface with mulitple applications and users, while keeping a central authority to various data that could be saved in the blockchain.
 
-In this template the blockchain acts as intermediary between two applications. The first application is Siebel CRM an oracle product. Siebel is a CRM software that resides in the cloud. Second software that connects to the blockchain is the Single View software that allows companies to see their finances 
+In this template the blockchain acts as intermediary between two applications. The first application is Siebel CRM an oracle product. Siebel is a CRM software that resides in the cloud. Second software that connects to the blockchain is the Single View software that allows companies to see their finances.
 
-
-
-![](https://github.com/ilya0/Project-4/blob/master/ERD/enstein.jpg)
 
 
 ## Getting Started
@@ -14,10 +11,6 @@ In this template the blockchain acts as intermediary between two applications. T
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ![](A1_Screenshots/Frontend.png)
-
-Link to [Item](http://ilya0.github.io/Project1)
-
-Link to [Trello](https://trello.com/b/0pPnXkD1/project1-pvp)
 
 ## Pages
 
