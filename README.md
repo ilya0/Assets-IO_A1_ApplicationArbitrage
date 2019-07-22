@@ -1,6 +1,8 @@
-# Assets-IO_A1_ApplicationArbitrage
+# Assets-IO_A1 Application Arbitrage
 
 Application Arbitrage is a template created specifically to help with quickly demonstrating the capabilities of blockchain and its ability to interface with mulitple applications and users, while keeping a central authority to various data that could be saved in the blockchain.
+
+In this template the blockchain acts as intermediary between two applications. The first application is Siebel CRM an oracle product. Siebel is a CRM software that resides in the cloud. Second software that connects to the blockchain is the Single View software that allows companies to see their finances 
 
 
 
@@ -17,6 +19,25 @@ Link to [Item](http://ilya0.github.io/Project1)
 
 Link to [Trello](https://trello.com/b/0pPnXkD1/project1-pvp)
 
+## Pages
+
+**Dashboard** - shows the various parameters of the assets that are being trasacted as well as a list of these assets. These parameters include: Asset ID, Type, Price, Period, price change, current status
+
+**Action list** - Blank page for custom actions
+
+
+**Submit page** - Asset submission test page used to submit assets into the blockchain for testing
+
+
+
+**Notifications** - This is a custom dashboard that shows all the overal statuses of the components of the application
+
+	- Overall Network status - Overall check of any of the components and if any of them don't work, this will be red
+	- Blockchain status - Check if the blockchain is up and running
+	- Blockchain version - Shows current version of the chaincode
+	- OIC connector - Check if the connector is running
+	- Single View - Check if the single view application is responding
+	- Siebel status - Current status of Siebel software
 
 
 ### Prerequisities
