@@ -126,7 +126,7 @@ No test need to be ran at this time
 
 ##Unsolved problems, etc.
 
-* CORs issue is currently underdevelopment, and in order to use the front end cors plugin needs to be used in chrome
+* CORs issue is currently underdevelopment, and in order to use the front end cors plugin needs to be used in chrome - this is a front end archture issue
 * could use a beutified layout
 * styling
 
