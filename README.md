@@ -10,6 +10,8 @@ In this template the blockchain acts as intermediary between two applications. T
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
+This application will not run unless a blockchain
+
 ![](A1_Screenshots/Frontend.png)
 
 ## Pages
